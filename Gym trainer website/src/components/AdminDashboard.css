@@ -1,0 +1,77 @@
+.admin-dashboard {
+  padding: 20px;
+  background-color: #f0f2f5; /* Light background for the dashboard */
+}
+
+.dashboard-content {
+  margin-top: 20px;
+  background-color: #ffffff; /* White background for content area */
+  padding: 20px;
+  border-radius: 16px; /* Rounded corners for a card look */
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1); /* Softer and deeper shadow for a card look */
+  font-family: 'Roboto', sans-serif;
+  color: #333; /* Dark text color for readability */
+  transition: transform 0.3s ease-in-out; /* Smooth transition for hover effect */
+}
+
+/* Removed hover effect for dashboard content */
+.dashboard-content:hover {
+  transform: none; /* No scaling effect */
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1); /* No change in shadow */
+}
+
+.MuiAppBar-root {
+  background-color: #ff5722; /* Orange color for the AppBar */
+}
+
+.MuiDrawer-paper {
+  background-color: #2e2e2e; /* Dark background for the drawer */
+}
+
+.MuiListItem-button {
+  background-color: inherit; /* Default background color for list items */
+}
+
+.MuiListItem-button:hover {
+  background-color: #ff5722; /* Orange background on hover */
+}
+
+.MuiListItemIcon-root, .MuiListItemText-primary {
+  color: #ffffff; /* White color for icons and text */
+}
+
+.MuiListItemIcon-root:hover, .MuiListItemText-primary:hover {
+  color: #f1c40f; /* Gold color on hover */
+}
+
+.MuiTypography-h5 {
+  color: #ffffff; /* White color for the AppBar text */
+}
+
+.MuiTable-root {
+  background-color: #ffffff; /* White background for the table */
+  border-radius: 8px; /* Rounded corners for table */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Softer shadow for table */
+}
+
+.MuiTableRow-root:hover {
+  background-color: #f0f2f5; /* Light background on table row hover */
+}
+
+.MuiButton-containedPrimary {
+  background-color: #ff5722; /* Orange background for primary buttons */
+  border-radius: 24px; /* Rounded corners for buttons */
+}
+
+.MuiButton-containedPrimary:hover {
+  background-color: #e64a19; /* Darker orange on hover for primary buttons */
+}
+
+.MuiButton-containedSecondary {
+  background-color: #f44336; /* Red background for secondary buttons */
+  border-radius: 24px; /* Rounded corners for buttons */
+}
+
+.MuiButton-containedSecondary:hover {
+  background-color: #d32f2f; /* Darker red on hover for secondary buttons */
+}

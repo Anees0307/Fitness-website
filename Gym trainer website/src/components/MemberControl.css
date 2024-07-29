@@ -1,0 +1,52 @@
+.member-control {
+    margin-top: 20px;
+  }
+  
+  .member-control-title {
+    font-family: 'Roboto', sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .member-table {
+    border-radius: 8px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+  }
+  
+  .MuiTableCell-root {
+    font-family: 'Roboto', sans-serif;
+    color: #333;
+  }
+  
+  .MuiTableRow-root:hover {
+    background-color: #f0f2f5; /* Light background on table row hover */
+  }
+  
+  .action-button {
+    margin-right: 8px;
+  }
+  
+  .MuiButton-containedPrimary {
+    background-color: #333333; /* Black primary button */
+    color: #ffffff;
+    border-radius: 24px; /* Rounded corners for buttons */
+    transition: background-color 0.3s ease-in-out; /* Smooth transition on hover */
+  }
+  
+  .MuiButton-containedPrimary:hover {
+    background-color: #000000; /* Darker black on hover for primary buttons */
+  }
+  
+  .MuiButton-containedSecondary {
+    background-color: #ff9800; /* Orange secondary button */
+    color: #ffffff;
+    border-radius: 24px; /* Rounded corners for buttons */
+    transition: background-color 0.3s ease-in-out; /* Smooth transition on hover */
+  }
+  
+  .MuiButton-containedSecondary:hover {
+    background-color: #f57c00; /* Darker orange on hover for secondary buttons */
+  }
+  

@@ -1,0 +1,73 @@
+/* Aesthetics.css */
+
+.aesthetics-page {
+    text-align: center;
+    margin-top: 600px;
+    padding: 20px;
+    background-color: #1c1c1c; /* Dark background color */
+    color: #e0e0e0; /* Light text color */
+}
+
+.input-section {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px; /* Increased margin-bottom */
+}
+
+.input-group {
+    margin: 0 20px; /* Increased margin */
+}
+
+.input-group label {
+    display: block;
+    font-size: 18px; /* Slightly larger font size */
+    margin-bottom: 10px; /* Increased margin-bottom */
+}
+
+.input-group input {
+    padding: 12px; /* Slightly larger padding */
+    font-size: 18px; /* Slightly larger font size */
+    border: 1px solid #555; /* Darker border */
+    border-radius: 5px;
+    background-color: #3a3a3a; /* Darker input background */
+    color: #fff; /* Light text color */
+}
+
+.workout-split {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.workout-day {
+    background-color: #2e2e2e; /* Darker card background */
+    border: 1px solid #555; /* Darker border */
+    border-radius: 10px;
+    margin: 15px; /* Increased margin */
+    padding: 25px; /* Increased padding */
+    width: 260px; /* Slightly wider */
+    transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+.workout-day:hover {
+    transform: scale(1.05);
+    background-color: #ff5722; /* Vibrant accent color */
+    color: #fff;
+}
+
+.workout-day h2 {
+    margin-bottom: 20px; /* Increased margin-bottom */
+    font-size: 22px; /* Slightly larger font size */
+    color: #ff5722; /* Vibrant accent color */
+}
+
+.workout-day ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.workout-day li {
+    margin-bottom: 15px; /* Increased margin-bottom */
+    font-size: 18px; /* Slightly larger font size */
+    color: #e0e0e0; /* Light text color */
+}

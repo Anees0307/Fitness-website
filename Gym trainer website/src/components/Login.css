@@ -1,0 +1,79 @@
+body {
+    font-family: 'Overpass', sans-serif;
+    background-image: url('../assets/pexels-leonardho-1552242.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.login-page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* Dark overlay for better contrast */
+}
+
+.login-container {
+    background-color: rgba(255, 255, 255, 0.3); /* More transparent to show the blur effect */
+    backdrop-filter: blur(10px); /* Blurring the background */
+    padding: 50px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    width: 300px;
+}
+
+.login-container h1 {
+    margin-bottom: 30px;
+    color: #333;
+}
+
+.login-input {
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 30px;
+    font-size: 16px;
+    box-sizing: border-box;
+}
+
+.login-button {
+    width: 100%;
+    padding: 15px;
+    border: none;
+    border-radius: 30px;
+    background-color: #ff5722; /* A vibrant color for the button */
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.login-button:hover {
+    background-color: #e64a19;
+}
+
+.signup-link {
+    margin-top: 20px;
+    color: #007BFF;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.signup-link:hover {
+    color: #0056b3;
+}
+
+.error-message {
+    color: #ff4d4d; /* Red color for error messages */
+    font-size: 14px;
+    margin: 10px 0; /* Adjust margin for spacing */
+}
